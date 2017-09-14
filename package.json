@@ -1,20 +1,17 @@
 {
-  "name": "electron-quick-start",
+  "name": "memobox",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A minimal memobox",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/desmonddeliang/memobox",
   "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
+    "memo",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Desmond Liang",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "~1.6.2"
