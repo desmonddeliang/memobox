@@ -3,15 +3,23 @@
   <head>
     <meta charset="UTF-8">
     <title>memobox</title>
+    <!-- StyleSheet -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Scripts -->
+    <script>delete module.exports</script>
+    <script src="./jquery-3.1.1.js"></script>
+
   </head>
   <body>
     <div class="pageTitle">memobox</div>
-    You have no memos stored at the moment. Try dragging in some stuff!
+    <div class="pageContent">
+      <div id="no-content">
+        ?
+      </div>
+    </div>
   </body>
 
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+  <!-- Render page -->
+  <script src="./readDB.js" charset="utf-8"></script>
 </html>
